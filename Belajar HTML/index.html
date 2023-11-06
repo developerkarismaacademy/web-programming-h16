@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+</head>
+
+<body>
+    <div>
+        <!-- Paragraf -->
+        <h3 id="top">Paragraf</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, repellat.</p>
+        <p align="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur incidunt aperiam!</p>
+        <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p align="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, suscipit!</p>
+        <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div>
+        <!-- Judul -->
+        <h3>Judul</h3>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quos repellat dolorum alias eius! Modi.
+        </h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad enim inventore ipsa esse.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil beatae enim libero suscipit.</h3>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta commodi labore in.</h4>
+        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, in cum.</h5>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, quidem!</h6>
+    </div>
+    <div>
+        <!-- Text Style -->
+        <b>style tebal,</b>
+        <i>style miring</i>,
+        <u>style bergaris bawah</u>,
+        <strike>huruf bergaris tengah</strike>.
+        <strong>Teks penting</strong>,
+        <em>teks penting</em>,
+        <ins>teks disisipkan</ins>,
+        <del>teks dihapus</del>,
+        <small>teks kecil</small>,
+        <mark>teks ditandai</mark>
+    </div>
+    <div>
+        <!-- List -->
+        <h3>Susunan Acara</h3>
+        <ol type="i">
+            <li>Pembukaan</li>
+            <li>Pembacaan doa</li>
+            <li>Sambutan - sambutan :
+                <ul type="round">
+                    <li>Sambutan ketua panitia</li>
+                    <li>Sambutan kepala sekolah</li>
+                </ul>
+            </li>
+            <li>Acara inti</li>
+            <li>Penutup</li>
+        </ol>
+    </div>
+    <div>
+        <!-- Tabel -->
+        <h3>Jadwal Ujian 1</h3>
+        <table border="1" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Jam pertama</th>
+                    <th>Jam Kedua</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>Senin</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>Matematika</td>
+                </tr>
+                <tr align="center">
+                    <td>Selasa</td>
+                    <td>Kejuruhan</td>
+                    <td>Olahraga</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Jadwal Ujian 2</h3>
+        <table border="1" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th rowspan="2">Hari</th>
+                    <th colspan="2">Jam</th>
+                </tr>
+                <tr>
+                    <th>Pertama</th>
+                    <th>Kedua</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>Senin</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>Matematika</td>
+                </tr>
+                <tr align="center">
+                    <td>Selasa</td>
+                    <td>Kejuruhan</td>
+                    <td>Olahraga</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <!-- Image -->
+        <h3>Image</h3>
+        <img src="images/default.jpg" alt="Image Default" title="Image Title Default" width="400">
+        <img src="https://placehold.co/700x500/000000/FFFFFF/jpg" alt="Image Default 2" title="Image Title Default 2"
+            width="500">
+        <!-- Video -->
+        <h3>Video</h3>
+        <video src="https://file-examples.com/storage/fed001dfc36547d0292f8e5/2017/04/file_example_MP4_480_1_5MG.mp4"
+            width="400" controls></video>
+        <!-- Audio -->
+        <h3>Audio</h3>
+        <audio src="https://file-examples.com/storage/fed001dfc36547d0292f8e5/2017/11/file_example_MP3_700KB.mp3"
+            width="400" controls></audio>
+    </div>
+    <div>
+        <!-- Link -->
+        <h3>Link</h3>
+        <ul>
+            <li>
+                <a href="https://www.google.com" target="_blank">
+                    Google
+                </a>
+            </li>
+            <li>
+                <a href="media.html">
+                    Media
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    Go to top
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <!-- Iframe -->
+        <h3>Iframe</h3>
+        <iframe src="media.html" frameborder="1" width="100%" height="500"></iframe>
+    </div>
+    <div>
+        <!-- Formulir -->
+        <h3>Formulir</h3>
+        <form action="" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="Isikan nama anda"> <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Isikan email anda"> <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Isikan password anda"> <br>
+            <label for="jenis-kelamin">Jenis Kelamin</label><br>
+            <input type="radio" id="jenis-kelamin" value="Pria">Pria <br>
+            <input type="radio" id="jenis-kelamin" value="Wanita">Wanita <br>
+            <select name="jenis-kelamin" id="jenis-kelamin">
+                <option value="Pria">Pria</option>
+                <option value="Wanita">Wanita</option>
+            </select> <br>
+            <label for="deskripsi">Deskripsi</label>
+            <textarea name="deskripsi" id="deskripsi" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
